@@ -6,7 +6,7 @@ let roundWinner = ''
 
 function playRound(playerSelection, computerSelection) {
   if (playerSelection === computerSelection) {
-    roundWinner = "it's a draw!"
+    roundWinner = "A draw!"
   }
   if (
     (playerSelection === 'ROCK' && computerSelection === 'SCISSORS') ||
@@ -22,7 +22,7 @@ function playRound(playerSelection, computerSelection) {
     (computerSelection === 'PAPER' && playerSelection === 'ROCK')
   ) {
     computerScore++
-    roundWinner = 'Machine'
+    roundWinner = 'Computer'
   }
   updateScoreMessage(roundWinner, playerSelection, computerSelection)
 }
