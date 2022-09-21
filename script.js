@@ -1,4 +1,4 @@
-// the game
+// The Game
 
 let playerScore = 0
 let computerScore = 0
@@ -43,7 +43,7 @@ function isGameOver() {
   return playerScore === 5 || computerScore === 5
 }
 
-// UI
+// User Interface
 
 const scoreInfo = document.getElementById('scoreInfo')
 const scoreMessage = document.getElementById('scoreMessage')
